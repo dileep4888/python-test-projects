@@ -1,0 +1,227 @@
+
+body { 
+    background-color: lightgray;
+}
+
+
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    
+    
+}
+
+#darkx {
+    text-align: center;
+}
+
+
+
+h3 {
+    color: hsl(180, 25%, 25%,);
+    text-align: center;
+}   
+
+#highxgamer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+  }
+
+h2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+}
+
+#hima {
+    color: darkslategray;
+    
+}
+ #game {
+    
+    position: relative;
+    left: 0%;
+    margin-left: 20px;
+ }
+ #sap {
+    border-radius: 40px;
+ }
+ #gadi {
+    border-radius: 40px;
+ }
+ 
+
+ #sap, #gadi {
+     transition-property: all;
+     transition-duration: 0.5s;
+ }
+ 
+ #sap:hover {
+     opacity: 80%;
+ }
+ #gadi:hover {  
+    opacity: 80%;
+    
+}
+#gadi:active {
+    height: 220px;
+    width: 220px;
+}
+#sap:active {
+    height: 220px;
+    width: 220px;
+}
+
+
+ #game2{
+    position: absolute;
+    right: 0%;
+    margin-right: 20px;
+ }   
+
+ #name1 {
+    text-align: left;
+ }
+#race {
+    position: absolute;
+    right: 0%;
+    margin-right: 30px;
+
+}
+#snake, #race {
+    font-size: 30px;
+}
+#snake {
+    position: absolute;
+    left: 0%;
+    margin-left: 55px;
+}
+
+#alan {
+    position: relative;
+    width: 100%;
+    border-radius: 30px;
+}
+
+#bt {
+    position: absolute;
+    right: 0%;
+    margin-right: 1px;
+}
+
+a {
+   text-decoration: none;
+}
+
+#kordhell, #bt, #qq, #dd {
+    border-radius: 30px;
+}
+
+#audio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dd1 {
+    position: absolute;
+    left: 0%;
+}
+
+.dd2 {
+    
+    position: absolute;
+    right: 0%;
+}
+
+#goo, #you {
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+
+#goo {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    margin-left: 300px;
+    color: azure;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: darkcyan;
+}
+
+#goo:hover {
+    background-color: darkslategray;
+    font-size: 17px;
+}
+
+
+#you {
+    display: inline-block;
+    border: 1px solid black; 
+    height: 100px;
+    width: 100px;
+    margin-right: 300px;
+    color: azure;
+    border-radius: 5px;
+    background-color: darkcyan;
+}
+
+#you:hover {
+    background-color: darkslategray;
+    font-size: 17px;
+     
+}
+
+
+#high {
+    display: inline;
+    position: absolute;
+    font-size: 30px;
+    color: darkslategrey;
+    animation-name: fade;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes fade {
+    from { opacity: 100%;}
+    to {  opacity: 0%;}
+    
+}
+
+@keyframes hoversize {
+    0% {
+        height: 225px;
+        width: 225;
+    }
+    100% {
+        height: 235px;
+        width: 235px;
+    }
+}
+
+
+#gamelist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+ 
